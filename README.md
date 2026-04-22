@@ -7,7 +7,7 @@ Sequences of N tokens (dim=8). Label determined by sum at 3 fixed sparse positio
 
 ## Key result
 - Transformer trained on N=30 generalises to sequences of length 60 (OOD)
-- MLP cannot even process OOD sequences — fixed input size is an architectural constraint
+- MLP cannot even process OOD sequences-- fixed input size is an architectural constraint
 - This demonstrates the core claim: transformers have structural advantages over FCNs for sparse token selection
 
 ## Run
